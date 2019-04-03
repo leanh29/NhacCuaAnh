@@ -1,0 +1,51 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.list-yourlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px; }
+
+.item1 {
+  color: #2dcc70;
+  font-family: 'Fjalla One';
+  font-size: 14px; }
+
+.item {
+  color: black;
+  font-family: 'Fjalla One';
+  font-size: 14px; }
+
+.list-yourlogo
+a:hover {
+  color: #2dcc70; }
+
+.navbar {
+  background: white; }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  /* de nav lun nam len tren chu */ }
+
+.slider {
+  position: relative; }
+
+.slider .owl-prev {
+  position: absolute;
+  left: 20px;
+  top: 40%; }
+
+.slider .owl-next {
+  position: absolute;
+  right: 20px;
+  top: 40%; }

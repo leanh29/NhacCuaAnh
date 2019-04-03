@@ -1,0 +1,72 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part1{
+    .logo{
+        position: relative;
+        height: 10vh;
+        width: 30vw;
+        background: yellow;
+        border: 1px solid black;
+        p{
+            position: absolute;
+            top:50%;
+            left:50%;
+    }
+    }
+    .navbar{
+        position: relative;
+        height: 10vh;
+        width: 70vw;
+        background: blue;
+        border: 1px solid black;
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    }
+}
+.part2 {
+    .main1{
+        position: relative;
+        border: 1px solid black;
+        height: 80vh;
+        width: 50vw;
+        background: green;
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    }
+    .main2{
+        position: relative;
+        border: 1px solid black;
+        height: 80vh;
+        width: 50vw;
+        background: green;
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    }
+    
+   
+}
+.footer{
+    position: relative;
+    border: 1px solid black;
+    height: 10vh;
+    width: 100vw;
+    background: red;
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+
